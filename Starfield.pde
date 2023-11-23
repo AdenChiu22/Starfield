@@ -51,7 +51,7 @@ void move ()
    {
      myX = 250;
      myY = 250;
-     mySpeed = (int)(Math.random()*2)+1 ;
+     mySpeed = (int)(Math.random()*2)+2 ;
    }
   
 }
@@ -76,7 +76,7 @@ class OddballParticle extends Particle
   myX = 250;
   myY = 250;
   mySize = (int) (Math.random()*10)+25;
-  mySpeed = (int)(Math.random()*1)+1;
+  mySpeed = (int)(Math.random()*2)+1;
   myAngle = (int)(Math.random()*30) * (int)(Math.PI);
   aden = Math.random()*1;
 }
