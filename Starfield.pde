@@ -45,8 +45,8 @@ class Particle
 
 void move ()
 {
- myX+= Math.cos(myAngle) * mySpeed;
- myY+= Math.sin(myAngle) * mySpeed;
+ myX = myX + Math.cos(myAngle) * mySpeed;
+ myY = myY + Math.sin(myAngle) * mySpeed;
  if (myX > 500 || myY > 500 || myY < 0 || myX < 0)
    {
      myX = 250;
